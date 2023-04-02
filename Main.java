@@ -23,8 +23,9 @@ public class Main {
         boolean firstSumIsBigger1 = sum1 > sum2;
         System.out.println("Чи більше sum1? " + firstSumIsBigger1);
 
+        
         //7. Виводить true якщо хоча б одна сума кратна 2, інакше - false.
         boolean isSumDivines2 = sum1 % 2 == 0 || sum2 % 2 == 0;
-        System.out.println("Чи є сума кратна 2? " + isSumDivines2);
+        System.out.println("Чи є сума кратна 2? " + isSumDivines2):
     }
 }
